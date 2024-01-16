@@ -28,7 +28,6 @@ const data = [
 ]
 
 function CustomTooltip({ payload, label, active }: any) {
-  console.log(payload, label, active)
   if (active) {
     return (
       <div className="">
